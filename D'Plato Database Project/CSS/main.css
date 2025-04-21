@@ -1,0 +1,141 @@
+body{
+    background-color: white;
+    scroll-behavior: smooth;
+}
+
+.header-login{
+    background-color: #f6e0be;
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-left: 50px;
+}
+
+.header-login-div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.logo{
+    background-color: none;
+    background-image: url(../IMG/dplato_actuallogo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 65px;
+    width: 100px;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo:hover{
+    border: solid rgb(48, 49, 48) 4px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.label-login-page{
+    height: 38px;
+    width: 500px;
+    margin-top: 6px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.label-login-page a{
+    font-family: 'Poppins', sans-serif;
+    color: #1e1e1e;
+    font-weight: 520;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.label-login-page a:hover{
+    font-family: 'Poppins', sans-serif;
+    color: #a6a6a6;
+    text-decoration: none;
+}
+
+.login-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  .btn-cream {
+    background-color: #f6e0be !important; /* cream */
+    color: #1e1e1e !important; /* dark cream */
+    border: none;
+  }
+
+  .btn-cream:hover {
+    background-color: #eaeac3; /* hover effect */
+    color: #3e3e1f;
+  }
+
+  .text-dark-cream {
+    color: #4e4e2e;
+  }
+
+  .form-label {
+    color: #4e4e2e;
+  }
+
+  a.text-dark-cream:hover {
+    color: #3e3e1f;
+  }
+
+  .about {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6e0be;
+    padding: 40px; 
+}
+
+.about_content{
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  z-index: 1;
+  position: relative;
+  padding-left: 80px;
+}
+
+.about_texts{
+  text-align: left;
+  color: #1e1e1e;
+}
+
+.about_texts h3{
+  margin-bottom: 28px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about_texts p{
+  font-family: 'Poppins', sans-serif;
+}
